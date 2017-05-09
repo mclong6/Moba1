@@ -8,20 +8,25 @@
     tools:context="hs_weingarten_mobile_anwendungen.moba1.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <Button
-        android:id="@+id/nichtVergessen"
-        android:layout_width="113dp"
-        android:layout_height="113dp"
-        android:text="Nicht vergessen"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="115dp" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/nichtVergessen"
+            android:layout_width="113dp"
+            android:layout_height="113dp"
+            android:text="Nicht vergessen"
+        />
 
-    <Button
-        android:id="@+id/bilderbuch"
-        android:layout_width="116dp"
-        android:layout_height="116dp"
-        android:text="Bilderbuch"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="270dp" />
-
+        <Button
+            android:id="@+id/bilderbuch"
+            android:layout_width="116dp"
+            android:layout_height="116dp"
+            android:text="Bilderbuch"
+            android:layout_marginTop="30dp"
+        />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
